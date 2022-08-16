@@ -1,3 +1,8 @@
+/*
+	Query for creating Table in gl database
+	create table employeeAssessment(empno INT, name VARCHAR(20), designation VARCHAR(20), salary FLOAT, age INT);
+*/
+
 package com.employee;
 
 import javax.persistence.Entity;
