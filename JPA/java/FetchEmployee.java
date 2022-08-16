@@ -48,11 +48,11 @@ public class FetchEmployee {
 	    em.persist(e2);
 	    em.persist(e3);
 	    
-	    //em.getTransaction().commit();
+	    
 	    
 	    
 
-	    
+	    //For Fetching data
 	    
 	    CriteriaQuery<EmployeeEntity> cq = cb.createQuery(EmployeeEntity.class);
 
